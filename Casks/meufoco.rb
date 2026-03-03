@@ -3,7 +3,7 @@ cask "meufoco" do
   name "meufoco"
   desc "Interface CLI em modo TUI para gerenciar tarefas, áreas, projetos e espaços de trabalho"
   homepage "https://github.com/widia-io/widia-omni"
-  version "0.0.2"
+  version "0.0.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "meufoco" do
   on_macos do
     on_intel do
       url "https://github.com/widia-io/widia-omni/releases/download/v#{version}/meufoco-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "4fa0eadd6ad5ffa5af741d18d14f0de1ed6206407d166e8c68eb3eccc8afa5a0"
+      sha256 "f6fc86ad2775540a968e5dec84d31f48a180da18fd30b4ae759f74f380d2e858"
     end
     on_arm do
       url "https://github.com/widia-io/widia-omni/releases/download/v#{version}/meufoco-cli_#{version}_darwin_arm64.tar.gz"
-      sha256 "d5ae57851faae7a929e73e7b966f17835c434b75f770bb478a0f1c29b7d8ea15"
+      sha256 "6c3239c89fb7c44925dd6abf89327fc144daf2f44978889a3e7c61367820b957"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/widia-io/widia-omni/releases/download/v#{version}/meufoco-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "9fd86f7fd30386cd26171b603b218d5ea4c7f6f69a6ad05a3db89c7344e68841"
+      sha256 "f8b1396f0f9dbcae0028600b4b20ba1ae0ddb9aaf1581adec8acf48928d7dac8"
     end
     on_arm do
       url "https://github.com/widia-io/widia-omni/releases/download/v#{version}/meufoco-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "0fd8683b16529a56ae684fc197a612bb55048b6878c64ee1998c113a498b7f44"
+      sha256 "d9f3a1685816ec1d1314b97b48ee946cacca2d0abb0d5c5796de0f85ad0f5f4e"
     end
   end
 
