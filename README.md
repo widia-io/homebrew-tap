@@ -1,0 +1,1 @@
+# homebrew-tap\n\nRepositório do tap Homebrew para o CLI widia.\n\n\n
